@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+</head>
+<body>
+    <p>Bonjour <span id="user-email"></span></p>
+    <p>Date de connexion : <span id="connection-date"></span></p>
+    <p>Heure de connexion : <span id="connection-time"></span></p>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        // const userEmail = urlParams.get('email');
+        const now = new Date();
+        const dateString = now.toLocaleDateString('fr-FR');
+        const timeString = now.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+
+        // document.getElementById("user-email").textContent = userEmail;
+        document.getElementById("connection-date").textContent = dateString;
+        document.getElementById("connection-time").textContent = timeString;
+
+        
+    </script>
+</body>
+</html>
