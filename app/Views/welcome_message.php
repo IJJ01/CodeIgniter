@@ -15,9 +15,6 @@
         </div>
        <button class="button connect" onclick="window.location.href='<?= base_url('auth/login') ?>'">Se connecter</button>
        <button class="button signup" onclick="window.location.href='<?= base_url('auth/register') ?>'">S'inscrire</button> 
-       <button class="button signup" onclick="window.location.href='<?= base_url('auth/main') ?>'">Produit</button> 
-       <button class="button signup" onclick="window.location.href='<?= base_url('auth/note') ?>'">Note</button> 
-
     </div>
 </body>
 </html>
