@@ -1,0 +1,1082 @@
+CRITICAL - 2024-11-27 01:06:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 01:15:10 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 01:15:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 01:16:44 --> Error: Class "App\Controllers\CompteModel" not found
+[Method: POST, Route: auth/registerPost]
+in APPPATH\Controllers\Auth.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->registerPost()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 17:53:12 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 18:30:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:09:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 22:09:32 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: H�te inconnu.  in C:\xampp\htdocs\projet\system\Email\Email.php:1901
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1901)
+#1 C:\xampp\htdocs\projet\system\Email\Email.php(1901): fsockopen('smtp.example.co...', 587, NULL, NULL, 5)
+#2 C:\xampp\htdocs\projet\system\Email\Email.php(1809): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\projet\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\projet\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\projet\app\Controllers\Auth.php(112): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\projet\app\Controllers\Auth.php(71): App\Controllers\Auth->sendWelcomeEmail('salmaoulboughaz...', 'salma')
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->registerPost()
+#8 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2024-11-27 22:09:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 22:09:32 --> 
+ERROR - 2024-11-27 22:09:32 --> Échec de l'envoi de l'email : Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 22:09:32 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;votre-email@example.com&gt;
+Return-Path: &lt;votre-email@example.com&gt;
+Subject: =?UTF-8?Q?Bienvenue=20sur=20notre=20plateforme?=
+Reply-To: &lt;votre-email@example.com&gt;
+User-Agent: CodeIgniter
+X-Sender: votre-email@example.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747989c814c39.43468104@example.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2024-11-27 22:14:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 22:14:07 --> 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0dbe2e7sm1937115e9.11 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0dbe2e7sm1937115e9.11 - gsmtp
+
+ERROR - 2024-11-27 22:14:07 --> Échec de l'envoi de l'email : 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0dbe2e7sm1937115e9.11 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0dbe2e7sm1937115e9.11 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 22:14:06 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?Bienvenue=20sur=20notre=20plateforme?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;674799ae0e5362.11183706@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+CRITICAL - 2024-11-27 22:18:20 --> ErrorException: Cannot redeclare Config\Email::$SMTPCrypto
+[Method: POST, Route: auth/registerPost]
+in APPPATH\Config\Email.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:18:56 --> ErrorException: Cannot redeclare Config\Email::$SMTPCrypto
+[Method: POST, Route: auth/registerPost]
+in APPPATH\Config\Email.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-11-27 22:30:06 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\projet\system\Email\Email.php:1762
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 1762)
+#1 C:\xampp\htdocs\projet\system\Email\Email.php(1762): mail('salmaoulboughaz...', '=?UTF-8?Q?Bienv...', '\r\n        <p>Bo...', 'Date: Wed, 27 N...', '-f courtitransp...')
+#2 C:\xampp\htdocs\projet\system\Email\Email.php(1694): CodeIgniter\Email\Email->sendWithMail()
+#3 C:\xampp\htdocs\projet\system\Email\Email.php(1589): CodeIgniter\Email\Email->spoolEmail()
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(112): CodeIgniter\Email\Email->send()
+#5 C:\xampp\htdocs\projet\app\Controllers\Auth.php(71): App\Controllers\Auth->sendWelcomeEmail('salmaoulboughaz...', 'salma')
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->registerPost()
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2024-11-27 22:30:06 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 22:30:06 --> 
+ERROR - 2024-11-27 22:30:06 --> Échec de l'envoi de l'email : Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 22:30:04 +0000
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;67479d6c1ab6b3.49387941@gmail.com&gt;
+Mime-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+</pre>
+CRITICAL - 2024-11-27 22:30:14 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(204): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:35:42 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(204): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:39:04 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(204): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:39:15 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(204): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:42:05 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\BaseModel.php on line 1011.
+ 1 SYSTEMPATH\BaseModel.php(1011): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(204): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:46:44 --> ErrorException: Undefined variable $token
+[Method: POST, Route: auth/forgot-password]
+in APPPATH\Controllers\Auth.php on line 204.
+ 1 APPPATH\Controllers\Auth.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $token', 'C:\\xampp\\htdocs\\projet\\app\\Controllers\\Auth.php', 204)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 22:47:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 22:47:23 --> 220 smtp.gmail.com ESMTP ffacd0b85a97d-385ccd2e012sm55531f8f.8 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd2e012sm55531f8f.8 - gsmtp
+
+ERROR - 2024-11-27 22:47:23 --> Échec de l'envoi de l'email : 220 smtp.gmail.com ESMTP ffacd0b85a97d-385ccd2e012sm55531f8f.8 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd2e012sm55531f8f.8 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 22:47:20 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20votre=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a1786816a3.16029715@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+CRITICAL - 2024-11-27 22:52:12 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/forgot-password]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:15 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:18 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/forgot-password]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:21 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:22 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:24 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/register]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:31 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:52:33 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/register]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-11-27 22:52:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "C:\Users\HP\Desktop\téléchargement.png"
+[Method: GET, Route: C:%5CUsers%5CHP%5CDesktop%5Ct%C3%A9l%C3%A9chargement.png]
+in SYSTEMPATH\Router\Router.php on line 737.
+ 1 SYSTEMPATH\Router\Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('C:\\Users\\HP\\Desktop\\téléchargement.png')
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:52:36 --> ErrorException: Cannot redeclare App\Controllers\Auth::sendResetEmail()
+[Method: GET, Route: auth/login]
+in APPPATH\Controllers\Auth.php on line 280.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-11-27 22:53:10 --> mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist in C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\projet\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-27 22:53:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 2 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:53:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'06a3209e4c0cef8d496aef8650ff8716ff7b6b635e301830986a0c4b0ac2aed6\', \'2024-11-27 22:53:10\', \'2024-11-27 23:53:10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'06a3209e4c0cef8d496aef8650ff8716ff7b6b635e301830986a0c4b0ac2aed6\', \'2024-11-27 22:53:10\', \'2024-11-27 23:53:10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 4 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:53:10 --> [Caused by] mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'06a3209e4c0cef8d496aef8650ff8716ff7b6b635e301830986a0c4b0ac2aed6\', \'2024-11-27 22:53:10\', \'2024-11-27 23:53:10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'06a3209e4c0cef8d496aef8650ff8716ff7b6b635e301830986a0c4b0ac2aed6\', \'2024-11-27 22:53:10\', \'2024-11-27 23:53:10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'06a3209e4c0cef8d496aef8650ff8716ff7b6b635e301830986a0c4b0ac2aed6\', \'2024-11-27 22:53:10\', \'2024-11-27 23:53:10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 5 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 22:54:51 --> mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist in C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\projet\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-27 22:54:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 2 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:54:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'f3e5373533272d6f390d2d672c38661cebf78a6a3c745686cb5d56ad850dbe47\', \'2024-11-27 22:54:51\', \'2024-11-27 23:54:51\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'f3e5373533272d6f390d2d672c38661cebf78a6a3c745686cb5d56ad850dbe47\', \'2024-11-27 22:54:51\', \'2024-11-27 23:54:51\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 4 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:54:51 --> [Caused by] mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'f3e5373533272d6f390d2d672c38661cebf78a6a3c745686cb5d56ad850dbe47\', \'2024-11-27 22:54:51\', \'2024-11-27 23:54:51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'f3e5373533272d6f390d2d672c38661cebf78a6a3c745686cb5d56ad850dbe47\', \'2024-11-27 22:54:51\', \'2024-11-27 23:54:51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'f3e5373533272d6f390d2d672c38661cebf78a6a3c745686cb5d56ad850dbe47\', \'2024-11-27 22:54:51\', \'2024-11-27 23:54:51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 5 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 22:54:57 --> mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist in C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\projet\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-27 22:54:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 2 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:54:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'969e1ee1d620f10facaced136c6e13bb12113fc345eb63de68d51ca1cb61cb85\', \'2024-11-27 22:54:57\', \'2024-11-27 23:54:57\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'969e1ee1d620f10facaced136c6e13bb12113fc345eb63de68d51ca1cb61cb85\', \'2024-11-27 22:54:57\', \'2024-11-27 23:54:57\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 4 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:54:57 --> [Caused by] mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'969e1ee1d620f10facaced136c6e13bb12113fc345eb63de68d51ca1cb61cb85\', \'2024-11-27 22:54:57\', \'2024-11-27 23:54:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'969e1ee1d620f10facaced136c6e13bb12113fc345eb63de68d51ca1cb61cb85\', \'2024-11-27 22:54:57\', \'2024-11-27 23:54:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'969e1ee1d620f10facaced136c6e13bb12113fc345eb63de68d51ca1cb61cb85\', \'2024-11-27 22:54:57\', \'2024-11-27 23:54:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 5 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 22:55:40 --> mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist in C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\projet\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-27 22:55:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 2 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:55:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'d3e78eaffd9a11f5fe42c723164f7ffc6673b4aa9cc81090ed7ee26b011d3e00\', \'2024-11-27 22:55:40\', \'2024-11-27 23:55:40\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'d3e78eaffd9a11f5fe42c723164f7ffc6673b4aa9cc81090ed7ee26b011d3e00\', \'2024-11-27 22:55:40\', \'2024-11-27 23:55:40\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 4 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 22:55:40 --> [Caused by] mysqli_sql_exception: Table 'base_donne.password_reset_tokens' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'d3e78eaffd9a11f5fe42c723164f7ffc6673b4aa9cc81090ed7ee26b011d3e00\', \'2024-11-27 22:55:40\', \'2024-11-27 23:55:40\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'d3e78eaffd9a11f5fe42c723164f7ffc6673b4aa9cc81090ed7ee26b011d3e00\', \'2024-11-27 22:55:40\', \'2024-11-27 23:55:40\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'d3e78eaffd9a11f5fe42c723164f7ffc6673b4aa9cc81090ed7ee26b011d3e00\', \'2024-11-27 22:55:40\', \'2024-11-27 23:55:40\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_reset_tokens` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 5 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 23:00:29 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\projet\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-27 23:00:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'field list'
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 2 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 23:00:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'8ead7b21aadf6a2e251c2e23ed50f606386d880f77822c19f558491a5d1dc739\', \'2024-11-27 23:00:29\', \'2024-11-28 00:00:29\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'8ead7b21aadf6a2e251c2e23ed50f606386d880f77822c19f558491a5d1dc739\', \'2024-11-27 23:00:29\', \'2024-11-28 00:00:29\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 4 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 23:00:29 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'8ead7b21aadf6a2e251c2e23ed50f606386d880f77822c19f558491a5d1dc739\', \'2024-11-27 23:00:29\', \'2024-11-28 00:00:29\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'8ead7b21aadf6a2e251c2e23ed50f606386d880f77822c19f558491a5d1dc739\', \'2024-11-27 23:00:29\', \'2024-11-28 00:00:29\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (\'6\', \'8ead7b21aadf6a2e251c2e23ed50f606386d880f77822c19f558491a5d1dc739\', \'2024-11-27 23:00:29\', \'2024-11-28 00:00:29\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`user_id`, `token`, `created_at`, `expires_at`) VALUES (:user_id:, :token:, :created_at:, :expires_at:)', [...], false)
+ 5 APPPATH\Controllers\Auth.php(216): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 23:01:37 --> mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY' in C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\projet\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\projet\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\projet\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\projet\app\Controllers\Auth.php(214): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\projet\system\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+#6 C:\xampp\htdocs\projet\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\projet\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projet\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projet\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\projet\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\projet\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-11-27 23:01:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '6' for key 'PRIMARY'
+[Method: POST, Route: auth/forgot-password]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`Id`, `reset_token`) VALUES (:Id:, :reset_token:)', [...], false)
+ 2 APPPATH\Controllers\Auth.php(214): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 23:01:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`Id`, `reset_token`) VALUES (\'6\', \'ccf497aea1fcd5b25254f625b9031932ba28fe85f1b069a2f9f8df21add1a07d\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`Id`, `reset_token`) VALUES (\'6\', \'ccf497aea1fcd5b25254f625b9031932ba28fe85f1b069a2f9f8df21add1a07d\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`Id`, `reset_token`) VALUES (:Id:, :reset_token:)', [...], false)
+ 4 APPPATH\Controllers\Auth.php(214): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+CRITICAL - 2024-11-27 23:01:37 --> [Caused by] mysqli_sql_exception: Duplicate entry '6' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `client` (`Id`, `reset_token`) VALUES (\'6\', \'ccf497aea1fcd5b25254f625b9031932ba28fe85f1b069a2f9f8df21add1a07d\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `client` (`Id`, `reset_token`) VALUES (\'6\', \'ccf497aea1fcd5b25254f625b9031932ba28fe85f1b069a2f9f8df21add1a07d\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `client` (`Id`, `reset_token`) VALUES (\'6\', \'ccf497aea1fcd5b25254f625b9031932ba28fe85f1b069a2f9f8df21add1a07d\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `client` (`Id`, `reset_token`) VALUES (:Id:, :reset_token:)', [...], false)
+ 5 APPPATH\Controllers\Auth.php(214): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->forgotPasswordPost()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\projet\\public\\index.php')
+ERROR - 2024-11-27 23:05:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 23:05:46 --> 220 smtp.gmail.com ESMTP ffacd0b85a97d-385ccd68c2asm70152f8f.78 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd68c2asm70152f8f.78 - gsmtp
+
+ERROR - 2024-11-27 23:05:46 --> Échec de l'envoi de l'email de réinitialisation : 220 smtp.gmail.com ESMTP ffacd0b85a97d-385ccd68c2asm70152f8f.78 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd68c2asm70152f8f.78 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 23:05:44 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a5c82243c5.35078132@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2024-11-27 23:06:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 23:06:48 --> 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0d9bc91sm2928245e9.9 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0d9bc91sm2928245e9.9 - gsmtp
+
+ERROR - 2024-11-27 23:06:48 --> Échec de l'envoi de l'email de réinitialisation : 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0d9bc91sm2928245e9.9 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0d9bc91sm2928245e9.9 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 23:06:44 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a6046ab1b8.53361175@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2024-11-27 23:08:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 23:08:23 --> 220 smtp.gmail.com ESMTP ffacd0b85a97d-385ccd3a54asm79588f8f.50 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd3a54asm79588f8f.50 - gsmtp
+
+ERROR - 2024-11-27 23:08:23 --> Échec de l'envoi de l'email de réinitialisation : 220 smtp.gmail.com ESMTP ffacd0b85a97d-385ccd3a54asm79588f8f.50 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-385ccd3a54asm79588f8f.50 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 23:08:22 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a6663a35a1.98242064@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2024-11-27 23:09:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 23:09:20 --> 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0d9bee2sm2986405e9.1 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0d9bee2sm2986405e9.1 - gsmtp
+
+ERROR - 2024-11-27 23:09:20 --> Échec de l'envoi de l'email de réinitialisation : 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0d9bee2sm2986405e9.1 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0d9bee2sm2986405e9.1 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 23:09:19 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a69f2995e3.34448336@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2024-11-27 23:10:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 23:10:17 --> 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434aa76a981sm34045785e9.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434aa76a981sm34045785e9.16 - gsmtp
+
+ERROR - 2024-11-27 23:10:17 --> Échec de l'envoi de l'email de réinitialisation : 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434aa76a981sm34045785e9.16 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434aa76a981sm34045785e9.16 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 23:10:13 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a6d561c533.89900448@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
+ERROR - 2024-11-27 23:14:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-11-27 23:14:14 --> 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0f7148fsm2929085e9.41 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0f7148fsm2929085e9.41 - gsmtp
+
+ERROR - 2024-11-27 23:14:14 --> Échec de l'envoi de l'email de réinitialisation : 220 smtp.gmail.com ESMTP 5b1f17b1804b1-434b0f7148fsm2929085e9.41 - gsmtp
+<br><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre><pre>starttls: 220 2.0.0 Ready to start TLS
+</pre><pre>hello: 250-smtp.gmail.com at your service, [105.67.0.37]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+</pre>Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-434b0f7148fsm2929085e9.41 - gsmtp
+<br>Unable to send email using SMTP. Your server might not be configured to send mail using this method.<br><pre>Date: Wed, 27 Nov 2024 23:14:13 +0000
+To: salmaoulboughaz@gmail.com
+From: &quot;Votre Application&quot; &lt;courtitransport2@gmail.com&gt;
+Return-Path: &lt;courtitransport2@gmail.com&gt;
+Subject: =?UTF-8?Q?R=C3=A9initialisation=20de=20mot=20de=20passe?=
+Reply-To: &lt;courtitransport2@gmail.com&gt;
+User-Agent: CodeIgniter
+X-Sender: courtitransport2@gmail.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: &lt;6747a7c5243091.61448063@gmail.com&gt;
+Mime-Version: 1.0
+
+</pre>
