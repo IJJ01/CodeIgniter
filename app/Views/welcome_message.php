@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TransportHub - Excellence in Logistics</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+  <style>
+    :root {
+      --primary-color: #2a2e8f; /* Modern deep blue */
+      --secondary-color: #ffffff; /* Clean white */
+      --text-color: #f7f7f7; /* Light text color */
+      --card-bg: #3b3fbc; /* Slightly lighter blue for cards */
+      --shadow-color: rgba(0, 0, 0, 0.1); /* Soft shadows */
+      --transition: 0.3s ease-in-out; /* Smooth transition */
+      --border-radius: 12px; /* Rounded elements */
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      padding: 1rem 0;
+      box-shadow: 0 4px 6px var(--shadow-color);
+      position: sticky; /* Makes the navbar sticky */
+      top: 0; /* Sticks to the top */
+      z-index: 1000; /* Ensures it's above other elements */
+    }
+
+    .brand {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--secondary-color);
+      text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-weight: 500;
+      color: var(--secondary-color);
+      transition: opacity var(--transition);
+    }
+
+    .nav-links a:hover {
+      opacity: 0.7;
+    }
+
+    .hero {
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+      text-align: center;
+      padding: 6rem 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-buttons a {
+      text-decoration: none;
+      padding: 0.8rem 2rem;
+      border-radius: var(--border-radius);
+      font-weight: bold;
+      display: inline-block;
+      margin: 0.5rem;
+      transition: background-color var(--transition);
+    }
+
+    .btn-primary {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+    }
+
+    .btn-primary:hover {
+      background-color: #f0f0f0;
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--secondary-color);
+      border: 2px solid var(--secondary-color);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--secondary-color);
+      color: var(--primary-color);
+    }
+
+    .features {
+      display: flex; /* Change to flex for centering */
+      justify-content: center; /* Centers the content horizontally */
+      gap: 2rem;
+      margin: 3rem 0;
+      padding: 0 1rem;
+      flex-wrap: wrap; /* Ensures responsiveness */
+    }
+
+    .feature-card {
+      background-color: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: 0 4px 8px var(--shadow-color);
+      padding: 2rem;
+      text-align: center;
+      opacity: 0; /* Initially hidden */
+      transform: translateY(20px); /* Start slightly offset */
+      transition: opacity var(--transition), transform var(--transition);
+      width: 300px; /* Consistent card size */
+    }
+
+    .feature-card h3 {
+      font-size: 1.5rem;
+      color: var(--secondary-color);
+      margin-bottom: 1rem;
+    }
+
+    .feature-card p {
+      color: var(--text-color);
+    }
+
+    .feature-card.show {
+      opacity: 1; /* Fully visible */
+      transform: translateY(0); /* No offset */
+    }
+
+    .feature-card:hover {
+    transform: scale(1.05); /* Slight enlargement */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    cursor: pointer; /* Indicates interactivity */
+  }
+
+    footer {
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+      text-align: center;
+      padding: 2rem 0;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="brand">TransportHub</a>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Revolutionize Your Logistics</h1>
+      <p>Simplify your transportation needs with our all-in-one solution tailored for efficiency and reliability.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Get Started</a>
+        <a href="#" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="container features">
+    <div class="feature-card">
+      <h3>Reliable Transporters</h3>
+      <p>All drivers are vetted for top-notch safety and reliability.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Cutting-Edge Tech</h3>
+      <p>Track and manage your logistics in real-time, effortlessly.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Exceptional Support</h3>
+      <p>Our team is here to assist you around the clock.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 TransportHub. Elevating logistics every step of the way.</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Animation for feature cards
+    document.addEventListener('DOMContentLoaded', () => {
+      const cards = document.querySelectorAll('.feature-card');
+      setTimeout(() => {
+        cards.forEach((card, index) => {
+          setTimeout(() => {
+            card.classList.add('show');
+          }, index * 200); // Staggered animation
+        });
+      }, 500); // Start delay
+    });
+  </script>
+</body>
+</html>
