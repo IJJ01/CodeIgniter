@@ -32,11 +32,11 @@
 
     header {
       background-color: var(--primary-color);
-      padding: 1rem 0;
+      padding: 1.2rem 0;
       box-shadow: 0 4px 6px var(--shadow-color);
-      position: sticky; /* Makes the navbar sticky */
-      top: 0; /* Sticks to the top */
-      z-index: 1000; /* Ensures it's above other elements */
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
 
     .brand {
@@ -68,38 +68,38 @@
     }
 
     .nav-links a:hover {
-      opacity: 0.7;
+      opacity: 0.85;
     }
 
     .hero {
       background-color: var(--primary-color);
       color: var(--secondary-color);
       text-align: center;
-      padding: 6rem 1.5rem;
+      padding: 7rem 1.5rem;
     }
 
     .hero h1 {
-      font-size: 3.5rem;
+      font-size: 3.8rem;
       font-weight: 700;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     .hero p {
       font-size: 1.2rem;
       margin-bottom: 2rem;
-      max-width: 600px;
+      max-width: 700px;
       margin-left: auto;
       margin-right: auto;
     }
 
     .hero-buttons a {
       text-decoration: none;
-      padding: 0.8rem 2rem;
+      padding: 0.8rem 2.5rem;
       border-radius: var(--border-radius);
       font-weight: bold;
       display: inline-block;
       margin: 0.5rem;
-      transition: background-color var(--transition);
+      transition: background-color var(--transition), transform var(--transition);
     }
 
     .btn-primary {
@@ -108,7 +108,8 @@
     }
 
     .btn-primary:hover {
-      background-color: #f0f0f0;
+      background-color: #eaeaea;
+      transform: translateY(-3px);
     }
 
     .btn-secondary {
@@ -120,15 +121,16 @@
     .btn-secondary:hover {
       background-color: var(--secondary-color);
       color: var(--primary-color);
+      transform: translateY(-3px);
     }
 
     .features {
-      display: flex; /* Change to flex for centering */
-      justify-content: center; /* Centers the content horizontally */
-      gap: 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
       margin: 3rem 0;
       padding: 0 1rem;
-      flex-wrap: wrap; /* Ensures responsiveness */
+      flex-wrap: wrap;
     }
 
     .feature-card {
@@ -137,32 +139,33 @@
       box-shadow: 0 4px 8px var(--shadow-color);
       padding: 2rem;
       text-align: center;
-      opacity: 0; /* Initially hidden */
-      transform: translateY(20px); /* Start slightly offset */
+      opacity: 0;
+      transform: translateY(20px);
       transition: opacity var(--transition), transform var(--transition);
-      width: 300px; /* Consistent card size */
+      width: 320px;
     }
 
     .feature-card h3 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       color: var(--secondary-color);
       margin-bottom: 1rem;
     }
 
     .feature-card p {
       color: var(--text-color);
+      font-size: 0.95rem;
     }
 
     .feature-card.show {
-      opacity: 1; /* Fully visible */
-      transform: translateY(0); /* No offset */
+      opacity: 1;
+      transform: translateY(0);
     }
 
     .feature-card:hover {
-    transform: scale(1.05); /* Slight enlargement */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
-    cursor: pointer; /* Indicates interactivity */
-  }
+      transform: scale(1.08);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
 
     footer {
       background-color: var(--primary-color);
@@ -247,9 +250,9 @@
         cards.forEach((card, index) => {
           setTimeout(() => {
             card.classList.add('show');
-          }, index * 200); // Staggered animation
+          }, index * 200);
         });
-      }, 500); // Start delay
+      }, 500);
     });
   </script>
 </body>

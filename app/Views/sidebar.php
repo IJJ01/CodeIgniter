@@ -1,7 +1,7 @@
 <div class="sidebar">
     <h2>TransportHub</h2>
     <ul>
-        <li><a href="<?= base_url('/Home') ?>" class="active">Home</a></li>
+        <li><a href="<?= base_url('/Home') ?>" >Home</a></li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" id="offersDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                 My Offers
@@ -14,7 +14,6 @@
             </ul>
         </li>
         <li><a href="<?= base_url('/OfferForm') ?>">Post an Offer</a></li>
-        <li><a href="<?= base_url('/OfferDetails') ?>">Offer Details</a></li>
         <li><a href="#">Logout</a></li>
     </ul>
 </div>
