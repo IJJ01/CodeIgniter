@@ -25,7 +25,7 @@
       font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: var(--accent-color);
+      background-color: var(--primary-color);
       color: #333;
     }
 
@@ -38,7 +38,7 @@
     h1 {
       text-align: center;
       font-size: 2.5rem;
-      color: var(--primary-color);
+      color: white;
       margin-bottom: 2rem;
     }
 
@@ -132,7 +132,8 @@
 </head>
 
 <body>
-  <div class="container">
+<?php include(APPPATH . 'Views/partials/navbar.php'); ?>  
+<div class="container">
     <h1>Manage Your Transport Requests</h1>
     <?php if (!empty($requests)) : ?>
       <?php foreach ($requests as $request) : ?>
@@ -160,7 +161,7 @@
       </div>
     <?php endif; ?>
   </div>
-
+  <?php include(APPPATH . 'Views/partials/footer.php'); ?>
   <script>
     function deleteRequest(id) {
       if (confirm("Are you sure you want to delete this request?")) {

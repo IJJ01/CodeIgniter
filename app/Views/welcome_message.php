@@ -220,19 +220,94 @@
 
   <!-- Features Section -->
   <section class="container features">
-    <div class="feature-card">
-      <h3>Reliable Transporters</h3>
-      <p>All drivers are vetted for top-notch safety and reliability.</p>
+  <div class="slideshow">
+    <div class="slide-track">
+      <div class="feature-card">
+        <h3>Reliable Transporters</h3>
+        <p>All drivers are vetted for top-notch safety and reliability.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Cutting-Edge Tech</h3>
+        <p>Track and manage your logistics in real-time, effortlessly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Exceptional Support</h3>
+        <p>Our team is here to assist you around the clock.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Seamless Operations</h3>
+        <p>Experience smooth and efficient logistic processes.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Cost Effective</h3>
+        <p>Our pricing is competitive and transparent.</p>
+      </div>
+      <!-- Duplicate cards for seamless looping -->
+      <div class="feature-card">
+        <h3>Reliable Transporters</h3>
+        <p>All drivers are vetted for top-notch safety and reliability.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Cutting-Edge Tech</h3>
+        <p>Track and manage your logistics in real-time, effortlessly.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Exceptional Support</h3>
+        <p>Our team is here to assist you around the clock.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Seamless Operations</h3>
+        <p>Experience smooth and efficient logistic processes.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Cost Effective</h3>
+        <p>Our pricing is competitive and transparent.</p>
+      </div>
     </div>
-    <div class="feature-card">
-      <h3>Cutting-Edge Tech</h3>
-      <p>Track and manage your logistics in real-time, effortlessly.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Exceptional Support</h3>
-      <p>Our team is here to assist you around the clock.</p>
-    </div>
-  </section>
+  </div>
+</section>
+
+<style>
+  /* Feature Slideshow */
+  .slideshow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 220px; /* Set a fixed height for the cards */
+  }
+
+  .slide-track {
+    display: flex;
+    animation: scroll 20s linear infinite; /* Smooth continuous scrolling */
+  }
+
+  .feature-card {
+    background-color: #3b3fbc; /* Slightly lighter blue for cards */
+    border-radius: 12px; /* Rounded elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadows */
+    color: #f7f7f7; /* Light text */
+    padding: 1.5rem;
+    text-align: center;
+    flex: 0 0 300px; /* Fixed width for each card */
+    margin: 0 1rem; /* Spacing between cards */
+    transition: transform 0.3s ease-in-out; /* Hover effect */
+  }
+
+  .feature-card:hover {
+    transform: scale(1.1); /* Slight enlargement on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); /* Start at initial position */
+    }
+    100% {
+      transform: translateX(-100%); /* Move all cards out of view */
+    }
+  }
+</style>
+
 
   <!-- Footer -->
   <footer>

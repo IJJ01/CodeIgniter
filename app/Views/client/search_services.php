@@ -22,7 +22,7 @@
       font-family: 'Inter', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: var(--accent-color);
+      background-color: var(--primary-color);
       color: var(--text-color);
     }
 
@@ -92,8 +92,8 @@
     }
   </style>
 </head>
-
-<body>
+<?php include(APPPATH . 'Views/partials/navbar.php'); ?>
+<body>  
   <div class="container">
     <h1>Search Transport Services</h1>
     <form action="/client/search_results" method="POST">
@@ -110,6 +110,8 @@
       <button type="submit">Search</button>
     </form>
   </div>
+
 </body>
+<?php include(APPPATH . 'Views/partials/footer.php'); ?>
 
 </html>
