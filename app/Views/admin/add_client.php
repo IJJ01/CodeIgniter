@@ -103,7 +103,7 @@
 <body>
     <div class="container">
         <h1>Add Client</h1>
-        <form action="/admin/add_client" method="POST">
+        <form action="/admin/add_client/post" method="POST">
             <?php if (session()->get('errors')) : ?>
                 <div class="error-messages">
                     <ul>

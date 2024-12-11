@@ -207,16 +207,16 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Revolutionize Your Logistics</h1>
-      <p>Simplify your transportation needs with our all-in-one solution tailored for efficiency and reliability.</p>
-      <div class="hero-buttons">
-        <a href="#" class="btn-primary">Get Started</a>
-        <a href="#" class="btn-secondary">Learn More</a>
+    <section class="hero">
+      <div class="container">
+        <h1>Welcome to TransportHub</h1>
+        <p>Simplify your transportation needs with our all-in-one solution tailored for efficiency and reliability.</p>
+        <div class="hero-buttons">
+        <a href="<?= base_url('auth/login') ?>" class="btn-primary">Sign In</a>
+        <a href="<?= base_url('auth/register') ?>" class="btn-secondary">Sign Up</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Features Section -->
   <section class="container features">
