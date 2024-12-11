@@ -128,7 +128,7 @@
       <a href="/admin/dashboard">Dashboard</a>
       <a href="/admin/manage_clients">Manage Clients</a>
     </div>
-    <a href="/logout" class="logout">Log Out</a>
+    <a href="/auth/logout" class="logout">Log Out</a>
   </div>
 
   <!-- Main Content -->

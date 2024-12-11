@@ -5,14 +5,8 @@
       <li><a href="/client/search_services">Search Services</a></li>
       <li><a href="/client/manage_requests">Manage Requests</a></li>
       <li><a href="/client/create_request">Create a Request</a></li>
+      <li><a href="/auth/logout" class="logout-button">Logout</a></li>
     </ul>
-    <div class="profile-menu">
-      <div class="profile-icon">P</div>
-      <div class="dropdown">
-        <a href="/client/view_profile">View Profile</a>
-        <a href="/logout">Log Out</a>
-      </div>
-    </div>
   </div>
 </nav>
 

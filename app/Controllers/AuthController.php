@@ -87,6 +87,6 @@ class AuthController extends BaseController
     public function logout()
     {
         session()->destroy();
-        return redirect()->to('/auth/login')->with('success', 'Logged out successfully.');
+        return redirect()->to('/')->with('success', 'Logged out successfully.');
     }
 }
