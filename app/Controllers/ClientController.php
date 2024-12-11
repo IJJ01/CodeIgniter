@@ -23,47 +23,32 @@ class ClientController extends BaseController
 
         $this->db = \Config\Database::connect();
     }
+    public function createRequestView(){
+        return view('client/create_request');
+    }
     public function createRequest()
-    {
-        $request = service('request'); // Load the request service
-
-        // Validate the form input
-        $validation = \Config\Services::validation();
-        $validation->setRules([
-            'type_de_marchandise' => 'required',
-            'tonnage'             => 'required|numeric',
-            'ville_depart'        => 'required',
-            'ville_arriver'       => 'required',
-            'commentaire'         => 'permit_empty|string',
-        ]);
-
-        if (!$validation->withRequest($this->request)->run()) {
-            // Redirect back with errors and old input
-            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
-        }
-
-        // Prepare data for insertion
+{
+        // Handle form submission
         $data = [
-            'type_de_marchandise' => $request->getPost('type_de_marchandise'),
-            'tonnage'             => $request->getPost('tonnage'),
-            'ville_depart'        => $request->getPost('ville_depart'),
-            'ville_arriver'       => $request->getPost('ville_arriver'),
-            'date'                => date('Y-m-d H:i:s'), // Current timestamp
-            'commentaire'         => $request->getPost('commentaire'),
-            'client_id'           => 1, // Placeholder client ID, replace with dynamic value when auth is implemented
-            'status'              => 'Pending', // Default status
+            'type_de_marchandise' => $this->request->getPost('type_de_marchandise'),
+            'tonnage'             => $this->request->getPost('tonnage'),
+            'ville_depart'        => $this->request->getPost('ville_depart'),
+            'ville_arriver'       => $this->request->getPost('ville_arriver'),
+            'date'                => date('Y-m-d H:i:s'),
+            'commentaire'         => $this->request->getPost('commentaire'),
+            'client_id'           => 1, // Replace with dynamic ID later
+            'status'              => 'Pending',
         ];
 
-        // Insert data into the database
-        $annonceModel = new AnnonceModel();
+        $annonceModel = new \App\Models\AnnonceModel();
         if ($annonceModel->insert($data)) {
-            // Redirect to success page or show success message
-            return redirect()->to('/client/manage_requests')->with('success', 'Transport request created successfully!');
+            return redirect()->to('/client/manage_requests');
         } else {
-            // Redirect back with an error message
-            return redirect()->back()->with('error', 'Failed to create transport request. Please try again.');
+            return redirect()->back();
         }
-    }
+}
+
+    
 
     public function manageRequests()
     {
@@ -95,10 +80,10 @@ class ClientController extends BaseController
             throw new \CodeIgniter\Exceptions\PageNotFoundException('Request not found.');
         }
 
-        // Delete the request
+        
         $this->annonceModel->delete($id);
 
-        // Redirect to manage_requests
+        
         return redirect()->to('/client/manage_requests')->with('success', 'Request deleted successfully.');
     }
     public function editRequest($id)
@@ -150,24 +135,24 @@ class ClientController extends BaseController
 
     public function requestPdf($id)
     {
-        // Fetch the request by ID
+        
         $request = $this->annonceModel->find($id);
         if (!$request) {
             throw new \CodeIgniter\Exceptions\PageNotFoundException('Request not found.');
         }
     
-        // Generate HTML content for the PDF
+        
         $html = view('client/request_pdf_template', ['request' => $request]);
     
-        // Set Dompdf options
+        
         $options = new Options();
         $options->set('isHtml5ParserEnabled', true);
         $options->set('isRemoteEnabled', true);
     
-        // Initialize Dompdf
+        
         $dompdf = new Dompdf($options);
         $dompdf->loadHtml($html);
-        $dompdf->setPaper('A4', 'portrait'); // Set paper size and orientation
+        $dompdf->setPaper('A4', 'portrait'); 
         $dompdf->render();
     
         // Output the generated PDF

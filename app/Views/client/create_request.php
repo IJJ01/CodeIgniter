@@ -117,7 +117,7 @@
 <body>
     <div class="container">
         <h1>Create Transport Request</h1>
-        <form action="/client/create_request" method="POST">
+        <form action="/client/create_request/post" method="POST">
             <div>
                 <label for="type">Type of Goods</label>
                 <select name="type_de_marchandise" id="type" required>
