@@ -16,5 +16,6 @@ $routes->post('client/update_request/(:num)', 'ClientController::updateRequest/$
 $routes->get('client/search_services', 'ClientController::searchServices');
 $routes->post('client/search_results', 'ClientController::searchResults');
 $routes->get('client/request_pdf/(:num)', 'ClientController::requestPdf/$1');
+$routes->get('/admin/dashboard', 'AdminController::dashboard');
 
 

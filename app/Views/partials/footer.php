@@ -12,7 +12,6 @@
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 2rem;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
   }
 
   .footer a {

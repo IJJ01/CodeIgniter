@@ -25,35 +25,44 @@ class ClientController extends BaseController
     }
     public function createRequest()
     {
-        if ($this->request->getMethod() === 'post') {
-            
-            $type = $this->request->getPost('type');
-            $weight = $this->request->getPost('weight');
-            $pickup = $this->request->getPost('pickup');
-            $dropoff = $this->request->getPost('dropoff');
-            $comments = $this->request->getPost('comments');
+        $request = service('request'); // Load the request service
 
-            
-            $date = date('Y-m-d');
-            $status = 'Pending';
-            $client_id = 1; 
+        // Validate the form input
+        $validation = \Config\Services::validation();
+        $validation->setRules([
+            'type_de_marchandise' => 'required',
+            'tonnage'             => 'required|numeric',
+            'ville_depart'        => 'required',
+            'ville_arriver'       => 'required',
+            'commentaire'         => 'permit_empty|string',
+        ]);
 
-            
-            $this->annonceModel->save([
-                'type_de_marchandise' => $type,
-                'tonnage' => $weight,
-                'ville_depart' => $pickup,
-                'ville_arriver' => $dropoff,
-                'date' => $date,
-                'commentaire' => $comments,
-                'client_id' => $client_id,
-                'status' => $status
-            ]);
-
-            return redirect()->to('/client/manage_requests')->with('success', 'Request created successfully.');
+        if (!$validation->withRequest($this->request)->run()) {
+            // Redirect back with errors and old input
+            return redirect()->back()->withInput()->with('errors', $validation->getErrors());
         }
 
-        return view('client/create_request');
+        // Prepare data for insertion
+        $data = [
+            'type_de_marchandise' => $request->getPost('type_de_marchandise'),
+            'tonnage'             => $request->getPost('tonnage'),
+            'ville_depart'        => $request->getPost('ville_depart'),
+            'ville_arriver'       => $request->getPost('ville_arriver'),
+            'date'                => date('Y-m-d H:i:s'), // Current timestamp
+            'commentaire'         => $request->getPost('commentaire'),
+            'client_id'           => 1, // Placeholder client ID, replace with dynamic value when auth is implemented
+            'status'              => 'Pending', // Default status
+        ];
+
+        // Insert data into the database
+        $annonceModel = new AnnonceModel();
+        if ($annonceModel->insert($data)) {
+            // Redirect to success page or show success message
+            return redirect()->to('/client/manage_requests')->with('success', 'Transport request created successfully!');
+        } else {
+            // Redirect back with an error message
+            return redirect()->back()->with('error', 'Failed to create transport request. Please try again.');
+        }
     }
 
     public function manageRequests()

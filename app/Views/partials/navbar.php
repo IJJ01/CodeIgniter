@@ -1,5 +1,5 @@
 <nav class="navbar">
-  <div class="container">
+  <div class="containernav">
     <a href="/" class="brand">TransportHub</a>
     <ul class="nav-links">
       <li><a href="/client/search_services">Search Services</a></li>
@@ -18,14 +18,14 @@
 <style>
   .navbar {
     background-color: #2a2e8f; /* Deep blue */
-    padding: 1.2rem 0; /* Matches landing page */
+    padding: 1.3rem 0; /* Matches landing page */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     z-index: 1000;
   }
 
-  .navbar .container {
+  .navbar .containernav {
     display: flex;
     justify-content: space-between;
     align-items: center;
